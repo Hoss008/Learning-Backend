@@ -1,0 +1,20 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "task manager API",
+  "homepage": "https://github.com/Hoss008/Learning-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Hoss008/Learning-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoss008/Learning-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Hossam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
