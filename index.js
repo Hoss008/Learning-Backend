@@ -12,5 +12,5 @@ app.get("/", (req, res) => {
 app.use("/", taskRouter);
 
 app.listen(PORT, () => {
-  console.log(`server is listening at http://localhost:${PORT}`);
+  console.log(`server is listening at port:${PORT}`);
 });
