@@ -18,4 +18,4 @@ const TaskSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("Todo", TaskSchema);
+export default mongoose.model("Tasks", TaskSchema);
