@@ -30,4 +30,13 @@ const createTask = async (req, res) => {
   }
 };
 
-export { getAllTasks, createTask };
+const updateTask = async (req, res) => {
+  try {
+    const task = await Task.findByIdAndUpdate(req.params.id, req.body, {
+      new: true, // return the UPDATED task, not the old one
+      runValidators: true, // apply schema rules (e.g. title required)
+    });
+  } catch (error) {}
+};
+
+export { getAllTasks, createTask, updateTask };
